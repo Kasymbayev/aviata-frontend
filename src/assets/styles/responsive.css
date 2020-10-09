@@ -1,0 +1,57 @@
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    .ticket-block {
+        display: flex;
+        flex-direction: column !important;
+        padding-bottom: 25px;
+    }
+
+    .main_content {
+        width: 100% !important;
+        padding: 40px 40px 30px !important;
+    }
+
+    .main__content_wrapper {
+        display: block !important;
+    }
+
+    .flight_details {
+        margin-top: 35px;
+    }
+
+    .price_content {
+        width: 100% !important;
+        padding: 20px !important;
+    }
+
+    .companies-block {
+        height: 92% !important;
+    }
+
+    .airlineLists {
+        height: 104px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px)  {
+    .flight_path {
+        padding: 0 24px !important;
+    }
+
+    .companies-block {
+        height: 92% !important;
+    }
+
+    .airlineLists {
+        height: 104px !important;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1299px)  {
+    .companies-block {
+        height: 100% !important;
+    }
+
+    .airlineLists {
+        height: 308px !important;
+    }
+}
